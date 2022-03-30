@@ -9,7 +9,7 @@
    header {
     height: 65px;
     width: 100%;
-    background-color: rgba(243, 52, 4, 0.9);
+    background-color: #A2D729;
     position :fixed;
     top: 0;
     z-index: 10;
@@ -17,18 +17,37 @@
 
    h1 {
        float: center;
-       background-color: red;
+       background-color: #A2D729;
    }
 
+   .tombol {
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 1px solid #eee;
+   }
+
+
+   .header-right {
+       float: right;
+   }
+
+   h2 {
+       background-color: #A2D729;
+   }
+
+
    main {  
-    background-color: rgb(18, 26, 31);  
+    background-color: #3C91E6;  
     min-height: 100vh;  
     width: 100%;  
     display: flex;  
     align-items: center;  
     justify-content: center;  
    }  
-   .container {  
+   
+   .calculator-container {  
     width: 90%;  
     max-width: 400px;  
     background-color: rgb(39, 55, 59);  
